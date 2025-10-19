@@ -1,6 +1,7 @@
 import "./App.css";
 import ColorChanger from "./REACT SMALL TASKS/Components/ColorChanger";
 import Counter from "./REACT SMALL TASKS/Components/Counter";
+import EditableToDoList from "./REACT SMALL TASKS/Components/EditableToDoList";
 import FilterableList from "./REACT SMALL TASKS/Components/FilterableList";
 import InputFieldDisplay from "./REACT SMALL TASKS/Components/InputFieldDisplay";
 import LikeButton from "./REACT SMALL TASKS/Components/LikeButton";
@@ -52,16 +53,17 @@ function App() {
       {/* 10. Step Wizard Create a multi-step form with "Next" and "Previous"
       buttons to navigate between 3 steps. Display the current step number and
       content. Use useState to track the current step */}
-
-
-       {/* 1. Nested Object Form
+      {/* <StepWizard/> */}
+      {/* 1. Nested Object Form
  Create a form to manage a nested object (e.g., { user: { name: "",
  address: { street: "", city: "" } } }). Allow updating all fields and display the
  current object. Use useState with deep updates. */}
+      {/* <NestedObject/> */}
+      {/* 2. Editable To-Do List Build a to-do list where each item can be edited in
+      place by clicking an "Edit" button, then saved or canceled. Use useState
+      for the list and editing state. */}
 
- <NestedObject/>
-
-      <StepWizard/>
+      <EditableToDoList/>
     </div>
   );
 }
