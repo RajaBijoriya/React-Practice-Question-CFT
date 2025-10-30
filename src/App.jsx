@@ -21,6 +21,13 @@ import Timer from "./REACT SMALL TASKS/Components/Timer";
 import WidthTracker from "./REACT SMALL TASKS/Components/WidthTracker";
 import ApiFetch from "./REACT SMALL TASKS/Components/ApiFetch";
 import ColorChangerWithLog from "./REACT SMALL TASKS/Components/ColorChangerWithLog";
+import CheckBoxAlert from "./REACT SMALL TASKS/Components/CheckBoxAlert";
+import AutoResetCounter from "./REACT SMALL TASKS/Components/AutoResetCounter";
+import DynamicTitleCounter from "./REACT SMALL TASKS/Components/DynamicTitleCounter";
+import TodoList from "./REACT SMALL TASKS/Components/TodoList";
+import DynamicApiFetch from "./REACT SMALL TASKS/Components/DynamicApiFetch";
+import DebouncedSearch from "./REACT SMALL TASKS/Components/DebouncedSearch";
+import ThemeToggle from "./REACT SMALL TASKS/Components/ThemeToggle";
 
 function App() {
 
@@ -115,6 +122,39 @@ function App() {
       {/* 8. Checkbox with Alert Build a checkbox that shows its checked/unchecked
       state. Use useState for the checkbox state and useEffect to show an alert
       when the state changes */}
+      {/* <CheckBoxAlert/> */}
+      {/* 9. Auto-Reset Counter Create a counter with an increment button. Use
+      useState for the count and useEffect to reset the count to 0 after 5
+      seconds of inactivity */}
+      {/* <AutoResetCounter/> */}
+      {/* 10. Dynamic Title Counter Build a component with a number input. Use
+      useState to store the input value and useEffect to update the document
+      title with the input value in real-time. */}
+      {/* <DynamicTitleCounter /> */}
+      {/* Medium Level Questions (10 Questions) These questions involve more complex
+      state management, multiple side effects, or conditional logic with
+      useState and useEffect. 1. To-Do List with LocalStorage Create a to-do
+      list with an input and "Add" button. Use useState for the input and list,
+      and useEffect to load the list from localStorage on mount and save it on
+      updates */}
+      {/* <TodoList/> */}
+      {/* 2. Dynamic API Fetch Build a component with an input for a user ID (1–10).
+      Use useState to store the ID and fetched user data, and useEffect to fetch
+      user details from https://jsonplaceholder.typicode.com/users/{id} when the
+      ID changes. */}
+      {/* <DynamicApiFetch/> */}
+      {/* 3. Debounced Search Create a search input that displays the typed query.
+      Use useState for the query and useEffect with a timer to log the query to
+      the console only after the user stops typing for 1 second */}
+      {/* <DebouncedSearch/> */}
+      {/* 4. Theme Toggle with LocalStorage Build a button to toggle between "Light"
+      and "Dark" themes, changing a div’s styles. Use useState for the theme and
+      useEffect to save the theme to localStorage and load it on mount */}
+      {/* <ThemeToggle/> */}
+      {/* 5. Paginated API Data Create a component with "Next" and "Previous"
+      buttons to fetch paginated posts from
+      https://jsonplaceholder.typicode.com/posts? _page={page}&_limit=5. Use
+      useState for the page and posts, and useEffect for fetching data. */}
     </div>
   );
 }
